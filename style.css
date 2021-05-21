@@ -1,0 +1,21 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1 {
+    width: 500px;
+    clip-path: circle(30%);
+}
+
+.img2 {
+    width: 500px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.img3 {
+    width: 500px;
+    clip-path: polygon(25% 0%, 100% 0%, 80% 99%, 0% 100%);
+}
